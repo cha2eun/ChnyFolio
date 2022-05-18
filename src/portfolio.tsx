@@ -142,8 +142,8 @@ export const blogs = {
 }
 
 export const contactInfo = {
-	title: "Contact To Me! 📞",
+	title: "Contact To Me",
 	subTitle: "subtitle for contact",
-	introduce: emoji("your introduce❤"),
+	introduce: emoji("📞"),
 	view: true
 }
