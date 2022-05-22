@@ -14,9 +14,9 @@ export const greeting = {
 export const socialMediaLinks = {
 	// IMPORTANT
 	// if you don't have, change value to blank or false!! DO NOT DELETE!
-	github: 'Your github link',
-	linkedin: 'Your linkedin link',
-	email: 'your email link',
+	github: 'https://github.com/cha2eun',
+	linkedin: 'https://www.linkedin.com/in/chaeny1029',
+	email: 'chaeny111@naver.com',
 	facebook: 'Your facebook link',
 	twitter: "Your twitter link",
 	instagram: "Your instagram link",
@@ -49,36 +49,25 @@ export const skills = {
 	 */
 	skillStack:[
 		{subTitle:emoji("✔ Main Skills"), 
-		lists:[{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "이해하고\n응용이 가능"},
-					{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: "70"},
-					{fontAwesome: "fab fa-sass", text: "jQuery", proficiency: "30"},
-					{fontAwesome: "fab fa-react", text: "React", proficiency: "60"},
-					{fontAwesome: "fab fa-js", text: "JS", proficiency: "70"},
-					{fontAwesome: "fab fa-aws", text: "JAVA", proficiency: "20"},]
+		lists:[{fontAwesome: "fab fa-js", text: "JS", proficiency: "-실무에서 주로 사용\n\n-이해하고 응용이 가능"},
+					{fontAwesome: "fab fa-java", text: "JAVA", proficiency: "-실무에서 주로 사용\n\n-이해하고 응용이 가능"},
+					]
 		},
 		{subTitle:emoji("✔ Front-End"), 
 		lists:[{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "2번"},
-					{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: "70"},
-					{fontAwesome: "fab fa-sass", text: "jQuery", proficiency: "30"},
-					{fontAwesome: "fab fa-react", text: "React", proficiency: "60"},
-					{fontAwesome: "fab fa-js", text: "JS", proficiency: "70"},
-					{fontAwesome: "fab fa-aws", text: "JAVA", proficiency: "20"},]
+				{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "2번"},
+				{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: "70"},
+				{fontAwesome: "fab fa-sass", text: "jQuery", proficiency: "30"},
+				{fontAwesome: "fab fa-react", text: "React", proficiency: "60"},
+				]
 		},
 		{subTitle:emoji("✔ Back-End"), 
-		lists:[{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: "3번"},
-					{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: "70"},
-					{fontAwesome: "fab fa-sass", text: "jQuery", proficiency: "30"},
-					{fontAwesome: "fab fa-react", text: "React", proficiency: "60"},
-					{fontAwesome: "fab fa-js", text: "JS", proficiency: "70"},
-					{fontAwesome: "fab fa-aws", text: "JAVA", proficiency: "20"},]
-		},
-		{subTitle:emoji("✔ ETC"), 
-		lists:[{fontAwesome: "fab fa-html5", text: "Oracle", proficiency: "4번"},
-					{fontAwesome: "fab fa-css3-alt", text: "PostgreSQL", proficiency: "70"},
-					{fontAwesome: "fab fa-sass", text: "Linux", proficiency: "30"},
-					{fontAwesome: "fab fa-react", text: "MySQL", proficiency: "60"},
-					{fontAwesome: "fab fa-js", text: "JS", proficiency: "70"},
-					{fontAwesome: "fab fa-aws", text: "JAVA", proficiency: "20"},]
+		lists:[{fontAwesome: "fab fa-aws", text: "JAVA", proficiency: "20"},
+		{fontAwesome: "fab fa-aws", text: "PostgreSQL", proficiency: "20"},
+		{fontAwesome: "fab fa-aws", text: "Oracle", proficiency: "20"},
+		{fontAwesome: "fab fa-html5", text: "MySQL", proficiency: "2번"},
+		{fontAwesome: "fab fa-html5", text: "Linux", proficiency: "2번"},
+	]
 		},
 	],
 	view: true
@@ -103,12 +92,12 @@ export const experience = {
 
 export const openSourceProjects = {
 	title: emoji("Open Source Projects 💻"),
-	view: true
+	view: false
 }
 
 export const projects = {
-	title: emoji("Projects 💻"),
-	subTitle: "subtitle for projects",
+	title: emoji("Career 💻"),
+	subTitle: "실무 개발 경력",
 	lists: [
 		{
 			title: "Project1",
@@ -141,7 +130,7 @@ export const achievements = {
 			desc: "I'll try harder!"
 		},
 	],
-	view: true
+	view: false
 };
 
 export const blogs = {
@@ -159,12 +148,15 @@ export const blogs = {
 			url: "#"
 		},
 	],
-	view: true
+	view: false
 }
 
 export const contactInfo = {
 	title: "Contact To Me",
-	subTitle: "subtitle for contact",
-	introduce: emoji("📞"),
+	subTitle: "가장 빠른 응답이 가능한 연락처입니다.",
+	// introduce: emoji("📞a"),
+	introduce: [{intro : emoji("✉ chaeny111@naver.com")},
+				{intro : emoji("📞 010-9017-7424")},
+				],
 	view: true
 }

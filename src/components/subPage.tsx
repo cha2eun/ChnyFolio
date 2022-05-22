@@ -3,7 +3,7 @@ import Header from './Header/Header';
 import Top from './topButton/Top';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import { greeting, skills, experience, openSourceProjects, projects, achievements, blogs, contactInfo } from '../portfolio';
+import { greeting, skills, experience, projects, achievements, blogs, contactInfo } from '../portfolio';
 
 function SubPage() {
 	return (
